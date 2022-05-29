@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hrms.testScripts.LoginTest">
+      <class name="RestAssured.testScripts.Parameterizing">
         <methods>
-          <include name="tearDown"/>
-          <include name="loginTest"/>
-          <include name="setUp"/>
-          <include name="verifyTitleTest"/>
+          <include name="addBook"/>
         </methods>
-      </class> <!-- com.hrms.testScripts.LoginTest -->
+      </class> <!-- RestAssured.testScripts.Parameterizing -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
